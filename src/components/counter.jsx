@@ -11,7 +11,7 @@ class Counter extends Component {
 	// 	super();
 	// 	this.handleIncrement = this.handleIncrement.bind(this);
 	// }
-
+	// JSX = stands for java script XML syntax
 	handleIncrement = () => {
 		console.log('Increment handeled ', this);
 		this.state.count++;
