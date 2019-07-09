@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class Counter extends Component {
 	state = {
+		counts: this.props.value,
 		count: 0,
 		tags: [ 'tag1', 'tag2', 'tag3' ]
 		//imageUrl: 'https://picsum.photos/200'
