@@ -7,6 +7,10 @@ class Counters extends Component {
 	state = {
 		counters: [ { id: 1, value: 4 }, { id: 12, value: 5 }, { id: 1, value: 8 } ]
 	};
+	handleIncrement = (counter) => {
+		const counters = [ ...this.state.counters ];
+		const index = counters.indexOf(counter);
+	};
 
 	handleReset = () => {
 		const counters = this.state.counters.map((c) => {
